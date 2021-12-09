@@ -1,0 +1,62 @@
+body{
+  background-color:blanchedalmond;
+  color:black;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.6em;
+  border:solid orangered 10px;
+  margin: 0;
+  padding: 10px;
+}
+
+a:hover{
+    color:red
+}
+
+.container{
+  width: 80%;
+  margin: left;
+  overflow: hidden;
+}
+
+#main-header{
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+.image{
+  border-radius: 50%;
+  border-style: solid;
+  border-color: orangered;
+  margin-top: 5px;
+}
+
+#sidebar {
+  background-color: seagreen;
+  color: #fff;
+  list-style: none;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-menu{
+  list-style: none;
+}
+
+.main{
+  display: flex;
+}
+
+#main-content{
+  padding: 10px;
+}
+#main-footer{
+  background-color: #333;
+  color:#fff;
+  text-align: center;
+}
+
+
